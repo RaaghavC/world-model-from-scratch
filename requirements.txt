@@ -1,0 +1,6 @@
+# A from-scratch world model. Tested on Python 3.11 + Apple Silicon (MPS).
+torch>=2.2
+numpy>=1.26
+Pillow>=10
+imageio>=2.30
+matplotlib>=3.7
