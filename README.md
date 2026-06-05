@@ -15,6 +15,10 @@ weights.
 > A companion research briefing — a cited, fact-checked survey of the modern
 > world-model landscape (Genie, Dreamer, Sora, JEPA, World Labs, Cosmos, …) — is
 > in [`docs/RESEARCH.md`](docs/RESEARCH.md).
+>
+> A 10-slide summary deck is in [`slides/`](slides/):
+> [**PDF**](slides/world-model-from-scratch.pdf) (viewable here on GitHub) and an
+> editable [**PPTX**](slides/world-model-from-scratch.pptx).
 
 ---
 
