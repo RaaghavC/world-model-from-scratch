@@ -1,0 +1,129 @@
+{
+  "faithfulness": {
+    "agent_pos_R2": [
+      0.96,
+      0.968
+    ],
+    "agent_pos_R2_mean": 0.964,
+    "agent_vel_R2": [
+      0.587,
+      0.502
+    ],
+    "agent_vel_R2_mean": 0.545,
+    "all_bodies_pos_R2_mean": 0.97,
+    "n_bodies": 1,
+    "n_samples": 4000
+  },
+  "drift": {
+    "drift_curve": [
+      423.3,
+      293.0,
+      324.6,
+      368.4,
+      410.1,
+      437.8,
+      480.9,
+      529.7,
+      563.8,
+      587.5,
+      599.6,
+      611.3,
+      625.4,
+      631.9,
+      652.4,
+      661.8,
+      681.8,
+      691.6,
+      704.1,
+      693.0,
+      686.9,
+      688.0,
+      709.7,
+      718.6,
+      705.1,
+      703.4,
+      695.6,
+      681.6,
+      668.2,
+      657.3,
+      651.5,
+      657.6,
+      664.1,
+      670.4,
+      675.9,
+      686.2,
+      694.9,
+      698.9,
+      708.2,
+      721.0,
+      726.6,
+      731.0,
+      733.7,
+      734.2,
+      734.5,
+      732.7,
+      729.2,
+      724.1,
+      724.1,
+      726.3,
+      723.2,
+      726.7,
+      721.3,
+      728.3,
+      727.8,
+      730.7,
+      728.7,
+      731.7,
+      731.0,
+      721.9,
+      709.2,
+      695.9,
+      690.3,
+      684.9,
+      682.2,
+      687.4,
+      696.2,
+      703.1,
+      714.6,
+      724.8
+    ],
+    "mse_h5": 410.1,
+    "mse_h20": 693.0,
+    "mse_h60": 721.9,
+    "horizon": 70
+  },
+  "controllability": {
+    "random": {
+      "success": 0.25,
+      "mean_closest_dist": 0.183
+    },
+    "wm2_planner": {
+      "success": 0.9,
+      "mean_closest_dist": 0.019
+    },
+    "wm2_actor_critic": {
+      "note": "not deployed; the learned-reward actor-critic underperformed the probe-guided planner at this scale (see FINDINGS.md), so the planner is the reported controller"
+    }
+  },
+  "latent_action": {
+    "purity": 0.366,
+    "nmi": 0.119,
+    "n_codes_used": 8,
+    "n_codes": 8
+  },
+  "worldscore_composite": {
+    "controllability_goal_reach": 0.867,
+    "consistency_drift": 0.639,
+    "fidelity_state_R2": 0.964,
+    "lam_action_purity": 0.366,
+    "mean": 0.823
+  },
+  "baseline_reference": {
+    "note": "2018 V-M-C (wm/), published single-ball numbers",
+    "pos_probe_R2": 0.97,
+    "vel_probe_R2": null,
+    "controller_success": 0.39,
+    "random_success": 0.05
+  },
+  "seconds": 55.8
+}
